@@ -1,0 +1,5 @@
+beanstalkd:
+  build: ./beanstalkd
+  ports:
+    - 11300:11300
+
