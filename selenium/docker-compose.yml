@@ -4,7 +4,7 @@ hub:
     - 4444:4444
 
 nodeChrome:
-  image: selenium/node-chrome:2.44.0
+  image: selenium/node-chrome-debug:2.45.0
   links:
     - hub
   ports:
@@ -16,7 +16,7 @@ nodeChrome:
     - /dev/urandom:/dev/random
 
 nodeFirefox:
-  image: selenium/node-firefox:2.44.0
+  image: selenium/node-firefox-debug:2.45.0
   links:
     - hub
   ports:

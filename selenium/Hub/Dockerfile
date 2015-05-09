@@ -1,4 +1,4 @@
-FROM selenium/hub:2.44.0
+FROM selenium/hub:2.45.0
 
 #========================
 # Selenium Configuration
